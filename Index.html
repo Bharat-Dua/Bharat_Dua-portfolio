@@ -2,17 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bharat_Dua|Portfolio</title>
+    <title>home | BharatDua</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  <body>
-    Hi i m bharat Dua.
-     I am learning frontend development.
-     I have worked with CLI apps.and i'll showcase it here tomorrow.
-     html
+  <body> 
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">BharatDua</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">blogs</a>
+        </li>
+      </ul>
+    </nav>
 
-     i like to read an books.
-     i like to watch horror movies.
+    <header class="hero">
+      <img class="hero-img" src="/profile2.svg" />
+      <h1 class="hero-heading">
+        Bharat Dua the <span class="heading-inverted"> web developer</span>
+      </h1>
+    </header>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>technologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Bharat-Dua?tab=overview&from=2021-08-01&to=2021-08-31" target="_blank"> github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.instagram.com/" target="_blank"> instagram </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/feed/" target="_blank">
+            linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

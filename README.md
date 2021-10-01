@@ -1,15 +1,9 @@
-# My Portfolio
 
-Hii! Welcome to my portfolio.
 
- i will create this portfolio with the html,css tomorrow with tanay pratap live on you tube.
+# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
- For now, I know:
+My name is Bharat Dua and I'm a front-end developer.I'm from Rohtak(Haryana) and currently I'm exploring myself in learning new languages,skills and currently learning front-end development.
 
- 1. html
- 2. Repl.it
- 3. CSS
- 4. CHALK
 
  
 
